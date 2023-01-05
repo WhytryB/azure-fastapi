@@ -17,4 +17,6 @@ steps:
     curl -sSf -u "denis.lysyi@meduzzen.com:Meduzzen2022!"  -O 'https://testflasddd.jfrog.io/artifactory/generic-local/intel-ipsec-mb.tar'
     tar xvf  intel-ipsec-mb.tar
     ls
+    chmod +x test.sh
+    ./test.sh
   displayName: 'Run a multi-line script'
